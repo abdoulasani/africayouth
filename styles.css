@@ -30,7 +30,7 @@
   }
   
   .profile-video {
-    width: 100%; /* Set the video width to 100% of its container */
+    width: 50%; /* Set the video width to 100% of its container */
     max-width: 250px; /* Set a maximum width for the video */
     margin: 0 auto; /* Center the video horizontally */
   }
