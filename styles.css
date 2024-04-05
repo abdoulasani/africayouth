@@ -178,3 +178,21 @@ section {
 #mission ul li, #vision ul li {
     margin-bottom: 10px;
 }
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 40px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+.social-media a {
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover img {
+    filter: brightness(70%); /* Adjust brightness on hover */
+}
