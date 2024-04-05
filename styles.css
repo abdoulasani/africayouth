@@ -184,10 +184,11 @@ section {
 }
 
 .social-media img {
-    width: 40px; /* Adjust size as needed */
+    width: 20px; /* Reduce the width to half */
     height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Add spacing between icons */
+    margin: 0 5px; /* Add spacing between icons */
 }
+
 
 .social-media a {
     text-decoration: none; /* Remove underline */
