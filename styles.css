@@ -139,3 +139,19 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+
+/* CSS for Section Animation */
+section {
+    opacity: 0; /* Initially hide the section */
+    animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
