@@ -1,0 +1,11 @@
+/* Video container styles */
+.video-container {
+    max-width: 60%;
+    height: auto;
+}
+
+/* Adjust the width of the video within the container */
+.video-container video {
+    width: 40%;
+    height: auto;
+}
